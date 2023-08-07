@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbarr from './Navbarr';
-import HomeCom from './HomeCom';
+// import HomeCom from './HomeCom';
 // import ClearBtnNav from './ClearBtnNav';
 
 export default function Routess() {
@@ -11,7 +11,7 @@ export default function Routess() {
                 <BrowserRouter>
                     <Navbarr />
                     <Routes>
-                        <Route path='/' element={<HomeCom />} />
+                        {/* <Route path='/' element={<HomeCom />} /> */}
                         {/* <Route path='/clear' element={<ClearBtnNav />} /> */}
                     </Routes>
 
