@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 // import { useNavigate } from 'react-router-dom';
 
 function Navbarr() {
-    // const nav = useNavigate();
+    const nav = useNavigate();
 
     const welcome = () => {
         alert("WELCOME TO OUR PAGE")
