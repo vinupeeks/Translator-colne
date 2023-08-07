@@ -4,7 +4,7 @@ import InputSelectionMethod from './InputSelectionMethod';
 import OutputSelectionMethod from './OutputSelectionMethod';
 import SubmitSec from './SubmitSec';
 // import ExchangeIcon from './ExchangeIcon';
-// import ClearBtnNav from './ClearBtnNav';
+import ClearBtnNav from './ClearBtnNav';
 
 export const context = createContext()
 

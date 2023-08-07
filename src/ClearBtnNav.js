@@ -1,14 +1,14 @@
-// import React, { useContext } from 'react';
-// import { context } from './HomeCom';
+import React, { useContext } from 'react';
+import { context } from './HomeCom';
 
 
-// function ClearBtnNav() {
-//     const value = useContext(context)
-//   return (
-//     <>
-//     <p>{console.log(textareaValue)}</p>
-//     </>
-//   )
-// }
+function ClearBtnNav() {
+    const value = useContext(context)
+  return (
+    <>
+    <p>{console.log(value.textareaValue)}</p>
+    </>
+  )
+}
 
-// export default ClearBtnNav
+export default ClearBtnNav

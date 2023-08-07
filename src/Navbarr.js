@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Navbarr() {
     const nav = useNavigate();
@@ -10,7 +10,7 @@ function Navbarr() {
         alert("WELCOME TO OUR PAGE")
     }
     const Clear = () => {
-        alert(`/clear`)
+        nav(`/clear`)
     }
     return (
         <>
