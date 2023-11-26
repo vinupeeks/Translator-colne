@@ -26,7 +26,7 @@ body{
     padding: 20px;
     border: 5px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(26, 19, 19, 0.1);
+    box-shadow: 0 2px 4px rgb(51,51,51);
 }
 
 .field-boarder {
@@ -51,7 +51,7 @@ body{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -1px 8px 20px 0px rgb(17 17 17);
 }
 
 .Clr-Btn {
@@ -60,7 +60,7 @@ body{
     font-size: small;
     margin: 0 auto;
     width: 50px;
-    border: 1px solid #7d7c7c;
+    border: 1px solid #333333;
     border-radius: 5px;
 }
 

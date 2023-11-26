@@ -1,17 +1,39 @@
-.App {
+ /* .App {
   text-align: center;
+} */
+/* styles.css */
+
+/* Default styles for all screen sizes */
+.App {
+  position: relative;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
+/* Responsive styles for screens up to 600 pixels wide */
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
