@@ -24,8 +24,11 @@ export default function HomeCom(props) {
     };
 
     const handleTextareaChange = (event) => {
-        setTextareaValue(event.target.value);
-    };
+        const newText = event.target.value;
+        const convertedText = newText.replace(/\./g, ',');
+        setTextareaValue(convertedText);
+      };
+      
     const clrBtn = (textareaValue) => {
         setTextareaValue('');
     };
